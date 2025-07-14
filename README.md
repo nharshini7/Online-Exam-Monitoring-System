@@ -1,4 +1,4 @@
-Requirements:
+**Requirements:**
 
 VS Code: https://code.visualstudio.com/download
 
@@ -8,7 +8,7 @@ Node: https://nodejs.org/en/download/prebuilt-installer
 
 Python 3.9: https://apps.microsoft.com/detail/9p7qfqmjrfp7?hl=en-US&gl=US
 
-Steps:
+**Steps:**
 Clone the repository in VS Code terminal. git clone https://github.com/avi212003/-Online-Exam-Monitoring-System.git
 
 Change the location to the repository.
@@ -47,7 +47,7 @@ Install cmake library pip install cmake Install all the depenedency required pip
 
 Open 4 terminal simultaneously
 
-for Admin side:
+**for Admin side:**
 
 backend =>  cd admin\backend
 
@@ -57,7 +57,7 @@ frontend => cd admin\frontend
 
 For running the server npm run dev 
 
-for user side: 
+**for user side:**
 
 frontend ==> cd user\frontend
 
