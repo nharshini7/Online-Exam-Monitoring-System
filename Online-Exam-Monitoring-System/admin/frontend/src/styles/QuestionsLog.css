@@ -1,0 +1,36 @@
+/* src/styles/QuestionsLog.css */
+.questions-log-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .exams-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .exams-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .exam-item {
+    font-size: 18px;
+    color: #333;
+    padding: 10px 15px;
+    margin: 8px 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exam-item:hover {
+    background-color: #f1f1f1;
+  }
+  

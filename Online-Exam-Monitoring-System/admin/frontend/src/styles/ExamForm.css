@@ -1,0 +1,132 @@
+/* .examform-container {
+    height: auto;
+} */
+
+
+/* General container styles */
+.examform-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  /* Heading */
+  .examform-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Form styles */
+  .examform-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Input fields */
+  .examform-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+  }
+  
+  .examform-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Question item container */
+  .examform-question-item {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  /* Option buttons */
+  .examform-option-button {
+    margin: 5px 5px 5px 0;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .examform-option-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Remove question button */
+  .examform-remove-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .examform-remove-button:hover {
+    background-color: #a71d2a;
+  }
+  
+  /* Add question button */
+  .examform-add-question-button {
+    align-self: flex-start;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .examform-add-question-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Submit button */
+  .examform-submit-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .examform-submit-button:hover {
+    background-color: #117a8b;
+  }
+  
+  /* Error messages */
+  .examform-error-message {
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  

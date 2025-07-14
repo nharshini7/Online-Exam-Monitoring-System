@@ -1,0 +1,60 @@
+/* src/styles/NavigationBar.css */
+.navigation-bar {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+  /* height: 100%; */
+  /* position: fixed; */
+}
+
+
+.navbar-sidebar {
+  flex-grow: 1;
+  background-color: deepskyblue;
+  /* height: 100vh; */
+  /* padding-top: 20px; */
+}
+
+.navbar-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-sidebar li {
+  padding: 10px 20px;
+}
+
+.navbar-sidebar a,
+.navbar-sidebar button {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.navbar-sidebar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-sidebar a:hover,
+.navbar-sidebar button:hover {
+  background-color: paleturquoise;
+}
+
+.adminhome-button, .adminmyProfile-button, .admincontact-button, .adminlogout-button  {
+  background-color: deepskyblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

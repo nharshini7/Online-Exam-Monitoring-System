@@ -1,0 +1,52 @@
+/* ExamPopup.css */
+
+.exam-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .exam-popup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 720px;
+    max-height: 80vh; /* Limit height to 80% of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative; /* Needed for positioning close button */
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .exam-questions {
+    margin-top: 20px;
+  }
+  
+  .question-text {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.Contact_US_profile{
+  text-align: left;
+  color: deepskyblue;
+  font-weight: bold ;
+  font-size: 30px;
+}
+
+/* Main Layout */
+.Contact_US_main {
+  display: flex;
+  width: 100%;
+  left: 0;
+}
+
+.Contact_US_main-content {
+  flex: 1;
+  padding: 0px 20px 20px 0px;
+}
+
+/* Contact Us Page */
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.contact_us_background {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 75vh; /* Ensure it takes up the full viewport height */
+}
+
+.contact_us_container {
+  flex: 0 1 700px;
+  width: 100%;
+  
+  margin: auto;
+  padding: 10px;
+}
+
+.contact_us_screen {
+  position: relative;
+  background: white;
+  border-radius: 15px;
+}
+
+.contact_us_screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.contact_us_screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.contact_us_screen-header-left {
+  margin-right: auto;
+}
+
+.contact_us_screen-header-button {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 8px;
+  background: white;
+}
+
+.contact_us_screen-header-button.close {
+  background: #ed1c6f;
+}
+
+.contact_us_screen-header-button.maximize {
+  background: #e8e925;
+}
+
+.contact_us_screen-header-button.minimize {
+  background: #74c54f;
+}
+
+.contact_us_screen-header-right {
+  display: flex;
+}
+
+.contact_us_screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: deepskyblue;
+}
+
+.contact_us_screen-body {
+  display: flex;
+}
+
+.contact_us_screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.contact_us_screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_us_app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: deepskyblue;
+  font-size: 26px;
+}
+
+.contact_us_app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: deepskyblue;
+}
+
+.contact_us_app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: deepskyblue;
+}
+
+.contact_us_app-form-group {
+  margin-bottom: 15px;
+}
+
+.contact_us_app-form-group.message {
+  margin-top: 40px;
+}
+
+.contact_us_app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.contact_us_app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid deepskyblue;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.contact_us_app-form-control::placeholder {
+  color: deepskyblue;
+}
+
+.contact_us_app-form-control:focus {
+  border-bottom-color: #34495e;
+}
+
+.contact_us_app-form-button {
+  background: none;
+  padding-left: 30px;
+  border: none;
+  color: deepskyblue;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact_us_app-form-button:hover {
+  color: #34495e;
+}
+

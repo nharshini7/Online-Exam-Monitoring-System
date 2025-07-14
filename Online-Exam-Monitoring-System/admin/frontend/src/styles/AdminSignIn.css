@@ -1,0 +1,38 @@
+/* src/styles/AdminSignIn.css */
+.signin-container {
+    text-align: center;
+  }
+  
+  .signin-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signin-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .signin-button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #337ab7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #286090;
+  }
+  

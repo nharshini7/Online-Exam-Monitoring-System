@@ -1,0 +1,158 @@
+[
+  {
+    "examID": "1731263020051",
+    "subject": "Computer Networks",
+    "title": "Test 8",
+    "date": "2024-11-14",
+    "username": "jainik@gmail.com",
+    "answers": [
+      "1"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-13T00:58:14.453541",
+    "_id": "67343ff69575e33e204d9a24"
+  },
+  {
+    "examID": "1731263020051",
+    "subject": "Computer Networks",
+    "title": "Test 8",
+    "date": "2024-11-14",
+    "username": "jainik@gmail.com",
+    "answers": [
+      "1"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-13T00:59:44.461342",
+    "_id": "67344050aa3dc62261bd2d43"
+  },
+  {
+    "examID": "1731263020051",
+    "subject": "Computer Networks",
+    "title": "Test 8",
+    "date": "2024-11-14",
+    "username": "jainik@gmail.com",
+    "answers": [
+      "1"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-13T01:00:26.003350",
+    "_id": "6734407aaa3dc62261bd2d44"
+  },
+  {
+    "examID": "1731263020051",
+    "subject": "Computer Networks",
+    "title": "Test 8",
+    "date": "2024-11-14",
+    "username": "jainik@gmail.com",
+    "answers": [
+      "1"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-13T01:04:52.109567",
+    "_id": "67344184849f471a6a6c1c67"
+  },
+  {
+    "examID": "1731263020051",
+    "subject": "Computer Networks",
+    "title": "Test 8",
+    "date": "2024-11-14",
+    "username": "jainik@gmail.com",
+    "answers": [
+      "1"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-13T01:08:53.678808",
+    "_id": "673442754fe4b1dd28a40734"
+  },
+  {
+    "examID": "1731263020051",
+    "subject": "Computer Networks",
+    "title": "Test 8",
+    "date": "2024-11-14",
+    "username": "jainik@gmail.com",
+    "answers": [
+      "1"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-13T01:10:37.237810",
+    "_id": "673442dd2b875e0483c5101f"
+  },
+  {
+    "examID": "1731263020051",
+    "subject": "Computer Networks",
+    "title": "Test 8",
+    "date": "2024-11-14",
+    "username": "jainik@gmail.com",
+    "answers": [
+      "2"
+    ],
+    "score": 0,
+    "timestamp": "2024-11-13T01:13:49.108012",
+    "_id": "6734439d2b875e0483c51020"
+  },
+  {
+    "examID": "1731263020051",
+    "subject": "Computer Networks",
+    "title": "Test 8",
+    "date": "2024-11-14",
+    "username": "jainik@gmail.com",
+    "answers": [
+      "1"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-13T17:14:59.917391",
+    "_id": "673524e377c92ee707184dbe"
+  },
+  {
+    "examID": "1731621756543",
+    "subject": "Math",
+    "title": "avi",
+    "date": "2024-11-15",
+    "username": "avi@gmail.com",
+    "answers": [
+      "aree"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-14T17:02:55.409880",
+    "_id": "6736738fc832a7e98d42c999"
+  },
+  {
+    "examID": "1731621756543",
+    "subject": "Math",
+    "title": "avi",
+    "date": "2024-11-15",
+    "username": "avi@gmail.com",
+    "answers": [
+      "aree"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-14T17:05:44.365703",
+    "_id": "67367438c832a7e98d42c99a"
+  },
+  {
+    "examID": "1731534704055",
+    "subject": "History",
+    "title": "Test 5",
+    "date": "2024-11-17",
+    "username": "jainik@gmail.com",
+    "answers": [
+      "1"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-16T00:55:05.341994",
+    "_id": "673833b91358521a0365f846"
+  },
+  {
+    "examID": "1731534704055",
+    "subject": "History",
+    "title": "Test 5",
+    "date": "2024-11-17",
+    "username": "jainik@gmail.com",
+    "answers": [
+      "1"
+    ],
+    "score": 10,
+    "timestamp": "2024-11-16T00:57:29.912073",
+    "_id": "6738344963711144b88e9f04"
+  }
+]

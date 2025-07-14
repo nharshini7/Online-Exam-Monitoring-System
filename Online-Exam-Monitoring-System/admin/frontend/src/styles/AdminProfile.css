@@ -1,0 +1,182 @@
+/* src/styles/AdminProfile.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .Admin_container {
+    font-family: 'Arial, sans-serif';
+    background-color: #f4f6f8;
+   
+    width: 99.5%;
+    overflow-y: auto;
+  }
+
+  .Admin_profile{
+    text-align: left;
+    color: deepskyblue;
+    font-weight: bold ;
+    font-size: 30px;
+  }
+
+  /* Main Layout */
+  .Admin_main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    left: 0;
+  }
+  
+  .Admin_main-content {
+    flex: 1;
+    padding: 0px 20px 20px;
+  }
+  
+  /* Personal Info */
+  .Admin_card {
+    background-color: #fff;
+    padding: 24px;
+    width: 100%;
+    border-radius: 12px; /* Slightly more rounded */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Softer shadow */
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .Admin_card:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Elevate on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+  }
+  
+  .Admin_card h3 {
+    margin-bottom: 15px;
+    color: #2e3b4e;
+    text-align: left;
+  }
+  
+  .Admin_card div {
+    text-align: left;
+    width: 340px;
+  }
+  
+  .Admin_card p {
+    margin-bottom: 10px;
+    color: #555;
+    text-align: left;
+    line-height: 1.6; /* Increase line spacing */
+  }
+  
+  .change-password-container {
+    background-color: #f9fafb;
+    color: #111827;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .change-password-container:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Elevate on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+  }
+  
+  .form-wrapper {
+    text-align: center;
+    width: 167%;
+  }
+  
+  .form-box {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-box h3 {
+    margin-bottom: 15px;
+    color: #2e3b4e;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #d1d5db;
+    background-color: #f3f4f6;
+    font-size: 0.875rem;
+    color: #111827;
+  }
+  
+  .submit-btn {
+    width: 20%;
+    padding: 0.625rem;
+    background-color: white;
+    color: deepskyblue;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #34495e;
+  }
+  
+  .Admin_card, .password-section {
+    padding: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .Admin_main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Admin_sidebar {
+      width: 100%;
+      position: relative;
+      min-height: auto;
+    }
+  
+    .Admin-card,.password-section {
+      width: 100%;
+      box-shadow: none;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Admin_header-content {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+    }
+  
+    .Admin_welcome-section h3 {
+      font-size: 18px;
+    }
+  
+    .Admin_sidebar {
+      display: flex;
+      justify-content: space-around;
+    }
+}
