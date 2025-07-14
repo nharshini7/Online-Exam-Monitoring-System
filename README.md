@@ -1,4 +1,5 @@
-Requirements
+Requirements:
+
 VS Code: https://code.visualstudio.com/download
 
 Visual Studio Community 2022: https://visualstudio.microsoft.com/vs/ You also need Visual Studio 2022 for C++ to run this file. So, kindly install that. You can refer here to install Visual Studio 2022 for C++. Download "Desktop Development with C++", and select "MSVC" and "Windows 10 SDK", as optional features to install.
@@ -46,7 +47,8 @@ Install cmake library pip install cmake Install all the depenedency required pip
 
 Open 4 terminal simultaneously
 
-for Admin side
+for Admin side:
+
 backend =>  cd admin\backend
 
 For running the server npm run dev 
@@ -55,7 +57,8 @@ frontend => cd admin\frontend
 
 For running the server npm run dev 
 
-for user side
+for user side: 
+
 frontend ==> cd user\frontend
 
 For running the server npm run dev 
